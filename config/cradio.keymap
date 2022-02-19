@@ -19,8 +19,8 @@
     combos {
         compatible = "zmk,combos";
         combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
+            timeout-ms = <100>;
+            key-positions = <3 4>;
             bindings = <&kp ESC>;
         };
         
@@ -86,15 +86,6 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-	    td: tapdance {
-            compatible = "zmk,behavior-hold-tap";
-            label = "TAPDANCE";
-            #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
     };
 
         keymap {
@@ -102,10 +93,10 @@
                 
        		default_layer {
 		bindings = <
-		&kp Q &kp W &kp F &kp P      &kp G 					&kp J &kp L &kp U &kp Y &kp BSPC 
-		&kp A &kp R &kp S &hm LGUI T &kp D 			        &kp H &hm RGUI N &kp E &kp I &kp O
-		&kp Z &kp X &kp C &kp V      &kp B			        &kp K &kp M &mt MINUS COMMA &mt EXCL DOT &mt UNDER SLASH
-          			&mt LALT SPACE  		        &mt RCTRL SPACE &to 1 
+		&kp Q &kp W &kp F &kp P &kp G 					&kp J &kp L &kp U &kp Y &kp BSPC 
+		&kp A &kp R &kp S &kp T &kp D 			        &kp H &kp N &kp E &kp I &kp O
+		&kp Z &kp X &kp C &kp V &kp B			        &kp K &kp M &mt MINUS COMMA &mt EXCL DOT &mt UNDER SLASH
+          			&mt LALT SPACE  &kp LSHIFT          &mt RCTRL SPACE &to 1 
 		>;
 		};
 
