@@ -96,7 +96,7 @@
 		&kp Q &kp W &kp F &kp P &kp G 					&kp J &kp L &kp U &kp Y &kp BSPC 
 		&kp A &kp R &kp S &kp T &kp D 			        &kp H &kp N &kp E &kp I &kp O
 		&kp Z &kp X &kp C &kp V &kp B			        &kp K &kp M &mt MINUS COMMA &mt EXCL DOT &mt UNDER SLASH
-          			&mt LALT SPACE  &kp LSHIFT          &mt RCTRL SPACE &to 1 
+          			&kp LSHIFT &mt LALT SPACE  		        &mt RCTRL SPACE &to 1 
 		>;
 		};
 
