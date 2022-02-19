@@ -75,7 +75,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <150>;
             quick_tap_ms = <0>;
-            flavor = "tap-preferred";
+            flavor = "retro-tap";
             bindings = <&kp>, <&kp>;
         };
     };
@@ -86,9 +86,9 @@
        		default_layer {
 		bindings = <
 		&kp Q &kp W &kp F &kp P      &kp G 					&kp J &kp L &kp U &kp Y &kp BSPC 
-		&kp A &kp R &kp S &hm LGUI T &kp D 			        &kp H &hm RGUI N &kp E &kp I &kp O
+		&kp A &kp R &kp S &hm LGUI T &kp D 			        &kp H &hm RGUI N &kp E &kp I &td ENTER O
 		&kp Z &kp X &kp C &kp V      &kp B			        &kp K &kp M &mt MINUS COMMA &mt EXCL DOT &mt UNDER SLASH
-          			&kp LSHIFT &mt LALT SPACE  		        &mt RCTRL SPACE &to 1 
+          			&mt LALT SPACE  		        &mt RCTRL SPACE &to 1 
 		>;
 		};
 
