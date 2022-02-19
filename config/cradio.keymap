@@ -88,15 +88,15 @@
 		&kp Q &kp W &kp F &kp P      &kp G 					&kp J &kp L &kp U &kp Y &kp BSPC 
 		&kp A &kp R &kp S &hm LGUI T &kp D 			        &kp H &hm RGUI N &kp E &kp I &kp O
 		&kp Z &kp X &kp C &kp V      &kp B			        &kp K &kp M &mt MINUS COMMA &mt EXCL DOT &mt UNDER SLASH
-          			&mt LALT SPACE &kp LSHIFT  		        &mt RCTRL SPACE &to 1 
+          			&kp LSHIFT &mt LALT SPACE  		        &mt RCTRL SPACE &to 1 
 		>;
 		};
 
        		left_layer {
 		bindings = <
 		&kp ESC   &kp AT        &kp HASH &kp DOLLAR &kp PERCENT	    &kp CARET &kp AMPS  &kp STAR &mt COLON SEMI &trans 
-		&kp TAB   &mt PLUS EQUAL &kp DQT &kp PIPE2  &kp SQT 	    &mt HOME BSLH  &kp LBRC  &kp RBRC &mt END PIPE &kp ENTER 
-		&kp TILDE &kp RA(E)     &trans   &trans     &kp DQT     	&kp LBKT  &kp LPAR  &kp RPAR &kp RBKT &to 2 
+		&kp TAB   &mt PLUS EQUAL &kp QMARK &kp PIPE2  &kp SQT 	    &mt HOME BSLH  &kp LBRC  &kp RBRC &mt END PIPE &kp ENTER 
+		&kp TILDE &kp RA(E)     &kp LT   &kp GT     &kp DQT     	&kp LBKT  &kp LPAR  &kp RPAR &kp RBKT &to 2 
 					                        &to 0  &kp LSHIFT		&kp RGUI &to 3 
 		>;
 		};
