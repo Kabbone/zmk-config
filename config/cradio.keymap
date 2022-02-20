@@ -20,7 +20,7 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <100>;
-            key-positions = <3 4>;
+            key-positions = <2 3>;
             bindings = <&kp ESC>;
         };
         
@@ -28,18 +28,6 @@
             timeout-ms = <50>;
             key-positions = <10 11>;
             bindings = <&kp TAB>;
-        };
-        
-        combo_ralt {
-            timeout-ms = <50>;
-            key-positions = <17 16>;
-            bindings = <&kp RALT>;
-        };
-        
-        combo_lalt {
-            timeout-ms = <50>;
-            key-positions = <11 12>;
-            bindings = <&kp LALT>;
         };
         
         combo_lgui {
@@ -56,19 +44,19 @@
         
         combo_lenter {
             timeout-ms = <50>;
-            key-positions = <31 19>;
+            key-positions = <30 19>;
             bindings = <&kp ENTER>;
         };
         
         combo_renter {
             timeout-ms = <50>;
-            key-positions = <32 19>;
+            key-positions = <33 19>;
             bindings = <&kp ENTER>;
         };
         
         combo_layer0 {
             timeout-ms = <50>;
-            key-positions = <30 33>;
+            key-positions = <31 32>;
             bindings = <&to 0>;
         };
         
