@@ -87,17 +87,17 @@
                 
        		default_layer {
 		bindings = <
-		&mt ESC Q &kp W &kp F &kp P &kp G 					&kp J &kp L &kp U &kp Y &kp BSPC 
-		&mt TAB A &kp R &kp S &kp T &kp D 			        &kp H &kp N &kp E &kp I &hm ENTER O
-		&kp Z &kp X &kp C &kp V &kp B			        &kp K &kp M &mt MINUS COMMA &mt EXCL DOT &mt UNDER SLASH
-          		&mt LALT SPACE &mt LCTL LSHIFT 		    &to 1 &mt RCTRL SPACE 
+		&hm ESC Q &kp W &kp F &kp P &kp G 					&kp J &kp L &kp U &kp Y &kp BSPC 
+		&hm TAB A &kp R &kp S &kp T &kp D 			        &kp H &kp N &kp E &kp I &hm ENTER O
+		&hm LGUI Z &kp X &kp C &kp V &kp B			        &kp K &hm COLON M &hm MINUS COMMA &hm EXCL DOT &hm UNDER SLASH
+          		&hm LALT SPACE &hm LCTL LSHIFT 		    &to 1 &hm RCTRL SPACE 
 		>;
 		};
 
        		left_layer {
 		bindings = <
-		&kp ESC   &kp AT        &kp HASH &kp DOLLAR &kp PERCENT	    &kp CARET &kp AMPS  &kp STAR &mt COLON SEMI &trans 
-		&kp TAB   &mt PLUS EQUAL &kp QMARK &kp PIPE2  &kp SQT 	    &mt HOME BSLH  &kp LBRC  &kp RBRC &mt END PIPE &kp ENTER 
+		&kp ESC   &kp AT        &kp HASH &kp DOLLAR &kp PERCENT	    &kp CARET &kp AMPS  &kp STAR &hm COLON SEMI &trans 
+		&kp TAB   &hm PLUS EQUAL &kp QMARK &kp PIPE2  &kp SQT 	    &hm HOME BSLH  &kp LBRC  &kp RBRC &hm END PIPE &kp ENTER 
 		&kp TILDE &kp RA(E)     &kp LT   &kp GT     &kp DQT     	&kp LBKT  &kp LPAR  &kp RPAR &kp RBKT &to 2 
 					                        &kp LSHIFT &to 0 		&to 3 &kp RGUI 
 		>;
@@ -108,7 +108,7 @@
 		&kp ESC   &none    &none    &none    &none    		&kp C_AC_BACK  &none    &none    &kp C_AC_FORWARD &trans 
 		&kp TAB   &none    &none    &none    &kp DEL 		&kp LEFT       &kp DOWN &kp UP   &kp RIGHT        &kp ENTER
 		&kp LSFT  &kp KPLS &kp LBKT &kp RBKT &kp BSLH    	&none          &none    &none    &none            &none
-					                &kp LCTL &to 0  		&to 1          &kp RALT 
+					                &mt LGUI LCTL &to 0  		&to 1          &kp RALT 
 		>;
 		};	
 		
