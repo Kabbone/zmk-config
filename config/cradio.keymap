@@ -140,31 +140,30 @@
 
         sys {
         bindings = <
-		&kp ESC  &LG(NUM_1)   &LG(NUM_2)      &LG(NUM_3) &LG(NUM_4)		&LG(NUM_5)  &td LC(V) LC(C) &kp UP      &none      &td Q BSPC 
-		&kp TAB  &kp LG(Q)    &td LG(E) LG(W) &kp LG(F)  &kp DEL   		&kp RC(TAB) &kp LEFT        &kp DOWN    &kp RIGHT  &kp ENTER
-		&kp LALT &td HOME DEL &kp END         &kp LG(D)  &kp LG(ENTER)	&none       &kp PGUP        &kp PGDOWN  &none      &none
-					                          &trans     &to ALPH    	&to SYM     &kp RALT 
+		&kp ESC  &kp LG(NUM_1)  &kp LG(NUM_2)    &LG(NUM_3) &kp LG(NUM_4)	&kp LG(NUM_5)  &hm LC(V) LC(C) &kp UP      &kp Q      &hm DEL BSPC 
+		&kp TAB  &kp LG(Q)      &hm LG(E) LG(W)  &kp LG(F)  &kp DEL   		&kp RC(TAB)    &kp LEFT        &kp DOWN    &kp RIGHT  &kp ENTER
+		&kp LALT &hm HOME DEL   &kp END          &kp LG(D)  &kp LG(ENTER)	&none          &kp PGUP        &kp PGDOWN  &none      &none
+					                          &trans     &to ALPH         	&to SYM        &kp RALT 
         >;
         };
         
-/*        bluetooth {
-*        bindings = <
-*		&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &none    &none  &none  &none  &none
-*		&none         &none         &none         &none         &none		       &none    &none  &none  &none  &none 
-*		&bt BT_CLR    &bt BT_NXT    &bt BT_PRV    &bt BT_SEL 0  &none		       &none    &none  &none  &none  &none 
-*					                              &none         &to ALPH    	   &to SYM  &none
-*        >;
-*        };
-*        
-*        gaming {
-*        bindings = <
-*		&kp Q   &kp W  &kp E  &kp R  &kp NUM_1       &none    &none  &none  &none  &none
-*		&kp A   &kp S  &kp D  &kp F  &kp NUM_2		 &none    &none  &none  &none  &none 
-*		&kp Z   &kp X  &kp C  &kp V  &kp NUM_3		 &none    &none  &none  &none  &none 
-*					          &none  &to ALPH    	 &to SYM  &none
-*        >;
-*        };
-*/
+        bluetooth {
+        bindings = <
+		&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &none    &none  &none  &none  &none
+		&none         &none         &none         &none         &none		       &none    &none  &none  &none  &none 
+		&bt BT_CLR    &bt BT_NXT    &bt BT_PRV    &bt BT_SEL 0  &none		       &none    &none  &none  &none  &none 
+					                              &none         &to ALPH    	   &to SYM  &none
+        >;
+        };
+        
+        gaming {
+        bindings = <
+		&kp Q   &kp W  &kp E  &kp R  &kp NUM_1       &none    &none  &none  &none  &none
+		&kp A   &kp S  &kp D  &kp F  &kp NUM_2		 &none    &none  &none  &none  &none 
+		&kp Z   &kp X  &kp C  &kp V  &kp NUM_3		 &none    &none  &none  &none  &none 
+					          &none  &to ALPH    	 &to SYM  &none
+        >;
+        };
         
 	};
 };
