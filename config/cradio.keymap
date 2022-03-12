@@ -120,7 +120,7 @@
 		&hm ESC Q &kp W     &kp F &kp P &kp G 					&kp J &kp L &kp U &kp Y &kp BSPC 
 		&hl NUM A &kp R     &kp S &kp T &kp D 			        &kp H &kp N &kp E &kp I &hm ENTER O
 		&hl SYS Z &hl SYM X &kp C &kp V &kp B			        &kp K &hm COLON M &hm MINUS COMMA &hm EXCL DOT &hm UNDER SLASH
-          		&hm LCTRL SPACE &sk LSHIFT 		            &to SYM &hl SYM SPACE 
+          		&hm LCTRL SPACE &sk LSHIFT 		                &to SYM &hl SYM SPACE 
 		>;
 		};
 
@@ -129,7 +129,7 @@
 		&kp ESC       &kp AT          &kp HASH  &kp DOLLAR &kp PERCENT	&kp CARET      &kp AMPS  &kp STAR &hm COLON SEMI &trans 
 		&kp TAB       &hm PLUS EQUAL  &kp QMARK &kp SLASH  &kp SQT 	    &hm HOME BSLH  &kp LBRC  &kp RBRC &hm END PIPE   &kp ENTER 
 		&hl SYS TILDE &kp LCTRL       &kp LT    &kp GT     &kp DQT     	&kp LBKT       &kp LPAR  &kp RPAR &kp RBKT       &to NUM 
-					                        &kp LSHIFT &to ALPH 	&to SYS &kp RGUI 
+					                        &kp LSHIFT &to ALPH 	    &to SYS &kp RGUI 
 		>;
 		};
 		
@@ -145,7 +145,7 @@
         sys {
         bindings = <
 		&kp ESC       &kp LG(NUM_1)  &kp LG(NUM_2)    &kp LG(NUM_3) &kp LG(NUM_4)	&kp LG(NUM_5)  &hm LC(V) LC(C) &kp RC(TAB)      &kp Q      &hm DEL BSPC 
-		&hm LGUI TAB  &kp LG(Q)      &hm LG(E) LG(W)  &kp LG(F)     &kp LGUI   		&kp LEFT       &kp DOWN        &kp UP           &kp RIGHT  &kp ENTER
+		&hm LGUI TAB  &kp LG(LS(Q))      &hm LG(E) LG(W)  &kp LG(F)     &kp LGUI   		&kp LEFT       &kp DOWN        &kp UP           &kp RIGHT  &kp ENTER
 		&kp LCTRL     &hm HOME DEL   &kp END          &kp LG(D)     &kp LG(ENTER)	&kp DEL        &kp PG_UP       &kp PG_DN        &none      &to NUM
 					                                  &trans        &to ALPH   	    &to SYM        &kp RALT 
         >;
