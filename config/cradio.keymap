@@ -72,11 +72,9 @@
             key-positions = <31 32>;
             bindings = <&to 0>;
         };
-        
-
     };
 
-    behaviours {
+    behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
