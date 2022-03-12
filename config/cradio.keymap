@@ -20,7 +20,7 @@
  *
  */
  /* Layers */
- define ALPH 0
+ #define ALPH 0
  #define SYM 1
  #define NUM 2
  #define SYS 3
