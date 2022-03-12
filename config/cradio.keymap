@@ -121,8 +121,8 @@
        	sym1 {
 		bindings = <
 		&kp ESC   &kp AT         &kp HASH  &kp DOLLAR &kp PERCENT	&kp CARET      &kp AMPS  &kp STAR &hm COLON SEMI &trans 
-		&kp TAB   &hm PLUS EQUAL &kp QMARK &kp PIPE2  &kp SQT 	    &hm HOME BSLH  &kp LBRC  &kp RBRC &hm END PIPE   &kp ENTER 
-		&kp TILDE &kp SLASH      &kp LT    &kp GT     &kp DQT     	&kp LBKT       &kp LPAR  &kp RPAR &kp RBKT       &to NUM 
+		&kp TAB   &hm PLUS EQUAL &kp QMARK &kp SLASH  &kp SQT 	    &hm HOME BSLH  &kp LBRC  &kp RBRC &hm END PIPE   &kp ENTER 
+		&kp TILDE &kp LCTRL      &kp LT    &kp GT     &kp DQT     	&kp LBKT       &kp LPAR  &kp RPAR &kp RBKT       &to NUM 
 					                        &kp LSHIFT &to ALPH 	&to SYS &kp RGUI 
 		>;
 		};
@@ -131,16 +131,16 @@
 		bindings = <
 		&kp ESC  &kp C_PLAY_PAUSE &kp C_PREV   &kp C_NEXT   &kp UNDER   	&kp MINUS &kp NUM_7  &kp NUM_8  &kp NUM_9 &trans
 		&kp TAB  &kp C_VOL_UP     &kp C_VOL_DN &kp STAR     &kp SLASH  	    &kp PLUS  &kp NUM_4  &kp NUM_5  &kp NUM_6 &kp ENTER 
-		&bt BT_CLR  &bt BT_NXT    &bt BT_PRV   &bt BT_SEL 0 &kp DOT   	    &kp EQUAL &kp NUM_1  &kp NUM_2  &kp NUM_3 &to SYS 
+		&none    &kp LCTRL        &none        &none        &kp DOT   	    &kp EQUAL &kp NUM_1  &kp NUM_2  &kp NUM_3 &to SYS 
 					                                &trans  &to ALPH	    &to SYM &kp NUM_0 
 		>;
 		};	
 
         sys {
         bindings = <
-		&kp ESC  &kp LG(NUM_1)  &kp LG(NUM_2)    &kp LG(NUM_3) &kp LG(NUM_4)	&kp LG(NUM_5)  &hm LC(V) LC(C) &kp UP      &kp Q      &hm DEL BSPC 
-		&kp TAB  &kp LG(Q)      &hm LG(E) LG(W)  &kp LG(F)     &kp DEL   		&kp RC(TAB)    &kp LEFT        &kp DOWN    &kp RIGHT  &kp ENTER
-		&kp LALT &hm HOME DEL   &kp END          &kp LG(D)     &kp LG(ENTER)	&none          &kp PG_UP        &kp PG_DN  &none      &none
+		&kp ESC   &kp LG(NUM_1)  &kp LG(NUM_2)    &kp LG(NUM_3) &kp LG(NUM_4)	&kp LG(NUM_5)  &hm LC(V) LC(C) &kp UP      &kp Q      &hm DEL BSPC 
+		&kp TAB   &kp LG(Q)      &hm LG(E) LG(W)  &kp LG(F)     &kp DEL   		&kp RC(TAB)    &kp LEFT        &kp DOWN    &kp RIGHT  &kp ENTER
+		&kp LCTRL &hm HOME DEL   &kp END          &kp LG(D)     &kp LG(ENTER)	&none          &kp PG_UP        &kp PG_DN  &none      &to NUM
 					                          &trans     &to ALPH         	    &to SYM        &kp RALT 
         >;
         };
