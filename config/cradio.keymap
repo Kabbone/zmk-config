@@ -13,68 +13,71 @@
     flavor = "tap-preferred";
     tapping_term_ms = <200>;
 };
-&sk {
-    quick-release;
-    release-after-ms = <2000>;
-};
-
-/* Layers */
-#define ALPH 0
-#define SYM 1
-#define NUM 2
-#define SYS 3
-#define BT 4
-#define GAME 5
-/ { 
-
-    combos {
-        compatible = "zmk,combos";
-
-        combo_game {
-            timeout-ms = <30>;
-            key-positions = <0 1 2 3>;
-            bindings = <&to GAME>;
-        };
-
-        combo_sys {
-            timeout-ms = <30>;
-            key-positions = <6 7 8>;
-            bindings = <&to SYS>;
-        };
-        
-        combo_bt {
-            timeout-ms = <10>;
-            key-positions = <13 14>;
-            bindings = <&to BT>;
-            layers = <SYS>;
-        };
-        
-        combo_term {
-            timeout-ms = <50>;
-            key-positions = <30 33>;
-            bindings = <&kp LG(ENTER)>;
-        };
-        
-        combo_lenter {
-            timeout-ms = <50>;
-            key-positions = <30 19>;
-            bindings = <&kp ENTER>;
-        };
-        
-        combo_renter {
-            timeout-ms = <50>;
-            key-positions = <33 19>;
-            bindings = <&kp ENTER>;
-        };
-        
-        combo_layer0 {
-            timeout-ms = <50>;
-            key-positions = <31 32>;
-            bindings = <&to 0>;
-        };
-        
-
-    };
+/* &sk {
+ *    quick-release;
+ *    release-after-ms = <2000>;
+ *};
+ *
+ */
+ /* Layers */
+ define ALPH 0
+ #define SYM 1
+ #define NUM 2
+ #define SYS 3
+ #define BT 4
+ #define GAME 5
+ /*
+ * / { 
+ *
+ *    combos {
+ *        compatible = "zmk,combos";
+ *
+ *        combo_game {
+ *            timeout-ms = <30>;
+ *            key-positions = <0 1 2 3>;
+ *            bindings = <&to GAME>;
+ *        };
+ *
+ *        combo_sys {
+ *            timeout-ms = <30>;
+ *            key-positions = <6 7 8>;
+ *            bindings = <&to SYS>;
+ *        };
+ *        
+ *        combo_bt {
+ *            timeout-ms = <10>;
+ *            key-positions = <13 14>;
+ *            bindings = <&to BT>;
+ *            layers = <SYS>;
+ *        };
+ *        
+ *        combo_term {
+ *            timeout-ms = <50>;
+ *            key-positions = <30 33>;
+ *            bindings = <&kp LG(ENTER)>;
+ *        };
+ *        
+ *        combo_lenter {
+ *            timeout-ms = <50>;
+ *            key-positions = <30 19>;
+ *            bindings = <&kp ENTER>;
+ *        };
+ *        
+ *        combo_renter {
+ *            timeout-ms = <50>;
+ *            key-positions = <33 19>;
+ *            bindings = <&kp ENTER>;
+ *        };
+ *        
+ *        combo_layer0 {
+ *            timeout-ms = <50>;
+ *            key-positions = <31 32>;
+ *            bindings = <&to 0>;
+ *        };
+ *        
+ *
+ *    };
+ */
 
     behaviours {
         hm: homerow_mods {
