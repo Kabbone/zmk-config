@@ -142,8 +142,8 @@
         bindings = <
 		&kp ESC  &kp LG(NUM_1)  &kp LG(NUM_2)    &kp LG(NUM_3) &kp LG(NUM_4)	&kp LG(NUM_5)  &hm LC(V) LC(C) &kp UP      &kp Q      &hm DEL BSPC 
 		&kp TAB  &kp LG(Q)      &hm LG(E) LG(W)  &kp LG(F)     &kp DEL   		&kp RC(TAB)    &kp LEFT        &kp DOWN    &kp RIGHT  &kp ENTER
-		&kp LALT &hm HOME DEL   &kp END          &kp LG(D)     &kp LG(ENTER)	&none          &kp PGUP        &kp PGDOWN  &none      &none
-					                          &trans     &to ALPH         	&to SYM        &kp RALT 
+		&kp LALT &hm HOME DEL   &kp END          &kp LG(D)     &kp LG(ENTER)	&none          &kp PG_UP        &kp PG_DN  &none      &none
+					                          &trans     &to ALPH         	    &to SYM        &kp RALT 
         >;
         };
         
