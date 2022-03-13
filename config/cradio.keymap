@@ -43,13 +43,13 @@
         };
         
         combo_num {
-            timeout-ms = <10>;
+            timeout-ms = <30>;
             key-positions = <15 16>;
             bindings = <&to NUM>;
         };
         
         combo_bt {
-            timeout-ms = <10>;
+            timeout-ms = <30>;
             key-positions = <13 14>;
             bindings = <&to BT>;
             layers = <SYS>;
