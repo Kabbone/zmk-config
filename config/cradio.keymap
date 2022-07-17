@@ -66,13 +66,13 @@
            bindings = <&kp>, <&to>;
            retro-tap;
         };
-        shk: shift_key {
-           compatible = "zmk,behavior-mod-morph";
-           label = "SHIFT_KEY";
-           #binding-cells = <2>;
-           bindings = <&kp>, <&kp>;
-           mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
+        //shk: shift_key {
+        //   compatible = "zmk,behavior-mod-morph";
+        //   label = "SHIFT_KEY";
+        //   #binding-cells = <2>;
+        //   bindings = <&kp>, <&kp>;
+        //   mods = <(MOD_LSFT|MOD_RSFT)>;
+        //};
 
     };
 
