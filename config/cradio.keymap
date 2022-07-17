@@ -85,7 +85,7 @@
 		&kp Q       &kp W      &kp F      &kp P &kp G   			&kp J          &kp L        &kp U           &kp Y        &kp ESC 
 		&hm LCTRL A &hm LGUI R &hm LALT S &kp T &kp D   	        &hm EQUAL H    &kp N        &hm RALT E      &hm RGUI I   &hm RCTRL O
 		&hl NUM Z   &kp X      &kp C      &kp V &kp B   	        &hm QMARK K    &hm COLON M  &hm MINUS COMMA &hm EXCL DOT &hm UNDER SLASH
-          		            &hm LCTRL TAB &hm LSHIFT ENTER 	        &hl SYM SPACE  &hl SYS BSPC 
+          		            &hm LSHIFT ENTER &hm LCTRL TAB 	        &hl SYS BSPC   &hl SYM SPACE 
 		>;
 		};
 
@@ -139,7 +139,7 @@
 		&kp Q       &kp W      &kp E      &kp R &kp T   			&kp Y          &kp U        &kp I           &kp O        &kp P 
 		&hm LCTRL A &hm LGUI S &hm LALT D &kp F &kp G   	        &hm EQUAL H    &kp J        &hm RALT K      &hm RGUI L   &hm RCTRL ESC
 		&hl NUM Z   &kp X      &kp C      &kp V &kp B   	        &hm QMARK N    &hm COLON M  &hm MINUS COMMA &hm EXCL DOT &hm UNDER SLASH
-          		            &hm LCTRL TAB &hm LSHIFT ENTER 	        &hl SYM SPACE  &hl SYS BSPC 
+          		            &hm LSHIFT ENTER &hm LCTRL TAB 	        &hl SYS BSPC   &hl SYM SPACE 
 		>;
 		};
         
