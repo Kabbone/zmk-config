@@ -30,49 +30,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_game {
-            timeout-ms = <30>;
-            key-positions = <0 1 2 3>;
-            bindings = <&to GAME>;
-        };
-
-        combo_sys {
-            timeout-ms = <30>;
-            key-positions = <6 7 8>;
-            bindings = <&to SYS>;
-        };
-        
-        combo_num {
-            timeout-ms = <30>;
-            key-positions = <15 16>;
-            bindings = <&to NUM>;
-        };
-        
-        combo_bt {
-            timeout-ms = <30>;
-            key-positions = <13 14>;
-            bindings = <&to BT>;
-            layers = <SYS>;
-        };
-        
-        combo_term {
-            timeout-ms = <50>;
-            key-positions = <30 33>;
-            bindings = <&kp LG(ENTER)>;
-        };
-        
-        combo_lenter {
-            timeout-ms = <50>;
-            key-positions = <30 19>;
-            bindings = <&kp ENTER>;
-        };
-        
-        combo_renter {
-            timeout-ms = <50>;
-            key-positions = <33 19>;
-            bindings = <&kp ENTER>;
-        };
-        
         combo_layer0 {
             timeout-ms = <50>;
             key-positions = <31 32>;
