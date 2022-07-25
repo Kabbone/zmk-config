@@ -82,9 +82,9 @@
                 
        	alpha1 {
 		bindings = <
-		&kp Q       &kp W      &kp F      &kp P &kp G   			&kp J          &kp L        &kp U           &kp Y        &kp ESC 
-		&hm LCTRL A &hm LGUI R &hm LALT S &kp T &kp D   	        &hm EQUAL H    &kp N        &hm RALT E      &hm RGUI I   &hm RCTRL O
-		&hl NUM Z   &kp X      &kp C      &kp V &kp B   	        &hm QMARK K    &hm COLON M  &hm MINUS COMMA &hm EXCL DOT &hm UNDER SLASH
+		&kp Q       &kp W      &kp F      &kp P &kp B   			&kp J          &kp L        &kp U           &kp Y        &kp ESC 
+		&hm LCTRL A &hm LGUI R &hm LALT S &kp T &kp G   	        &hm EQUAL M    &kp N        &hm RALT E      &hm RGUI I   &hm RCTRL O
+		&hl NUM Z   &kp X      &kp C      &kp D &kp V   	        &hm QMARK K    &hm COLON H  &hm MINUS COMMA &hm EXCL DOT &hm UNDER SLASH
           		            &hm LSHIFT ENTER &hm LCTRL TAB 	        &hl SYS BSPC   &hl SYM SPACE 
 		>;
 		};
