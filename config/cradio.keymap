@@ -93,7 +93,7 @@
 		bindings = <
 		&kp EXCL    &kp AT    &kp HASH  &kp HOME  &kp PERCENT	    &kp CARET  &kp END   &kp STAR  &kp TILDE   &kp EQUAL 
 		&kp DOLLAR  &kp PLUS  &kp LPAR  &kp RPAR  &kp AT 	        &kp PIPE   &kp MINUS &kp EQUAL &kp UNDER   &kp STAR 
-		&kp EXCL    &kp HASH  &kp LBRC  &kp RBRC  &kp GRV     	    &kp AMPS   &kp LBKT  &kp RBKT  &kp PERCENT &kp CARET 
+		&kp EXCL    &kp HASH  &kp LBRC  &kp RBRC  &kp GRAVE     	&kp AMPS   &kp LBKT  &kp RBKT  &kp PERCENT &kp CARET 
 			                                 &trans &trans 	        &trans &trans 
 		>;
 		};
