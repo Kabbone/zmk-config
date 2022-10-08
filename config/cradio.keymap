@@ -82,9 +82,9 @@
                 
        	alpha1 {
 		bindings = <
-		&hm ESC Q   &kp W      &kp F      &kp P &kp B   	    &kp J          &kp L        &kp U      &kp Y         &hm ESC SQT 
+		&hm ESC Q   &kp W        &kp F      &kp P      &kp B   	&kp J          &kp L        &kp U      &kp Y         &hm ESC SQT 
 		&hm LCTRL A &hm LSHIFT R &hm LGUI S &hm LALT T &kp G   	&hm EQUAL M    &hm RALT N   &hm RGUI E &hm RSHIFT I  &hm RCTRL O
-		&hl NUM Z   &kp X      &kp C      &kp D &kp V   	    &hm QMARK K    &hm COLON H  &kp COMMA  &kp DOT       &kp SLASH
+		&hl NUM Z   &kp X        &kp C      &kp D      &kp V   	&hm QMARK K    &hm COLON H  &kp COMMA  &kp DOT       &kp SLASH
           		            &hm LSHIFT TAB &kp ENTER 	        &hl SYS BSPC   &hl SYM SPACE 
 		>;
 		};
@@ -92,7 +92,7 @@
        	sym1 {
 		bindings = <
 		&kp EXCL    &kp AT    &kp HASH  &kp HOME  &kp PERCENT	    &kp CARET  &kp END   &kp STAR  &kp TILDE   &kp EQUAL 
-		&kp DOLLAR  &kp PLUS  &kp LPAR  &kp RPAR  &kp AT 	        &kp PIPE   &kp MINS  &kp EQUAL &kp UNDER   &kp STAR 
+		&kp DOLLAR  &kp PLUS  &kp LPAR  &kp RPAR  &kp AT 	        &kp PIPE   &kp MINUS &kp EQUAL &kp UNDER   &kp STAR 
 		&kp EXCL    &kp HASH  &kp LBRC  &kp RBRC  &kp GRV     	    &kp AMPS   &kp LBKT  &kp RBKT  &kp PERCENT &kp CARET 
 			                                 &trans &trans 	        &trans &trans 
 		>;
