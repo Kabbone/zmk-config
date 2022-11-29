@@ -84,17 +84,17 @@
 		bindings = <
 		&hm ESC Q   &kp W        &kp F      &kp P      &kp B   	&kp J          &kp L        &kp U      &kp Y         &hm ESC SQT 
 		&hm LCTRL A &hm LSHIFT R &hm LGUI S &hm LALT T &kp G   	&hm EQUAL M    &hm RALT N   &hm RGUI E &hm RSHIFT I  &hm RCTRL O
-		&hl NUM Z   &kp X        &kp C      &kp D      &kp V   	&hm QMARK K    &hm COLON H  &kp COMMA  &kp DOT       &kp SLASH
-          		            &hm LSHIFT TAB &kp ENTER 	        &hl SYS BSPC   &hl SYM SPACE 
+		&hl NUM Z   &kp X        &kp C      &kp D      &kp V   	&hm QMARK K    &hm COLON H  &kp COMMA  &kp DOT       &hm SLASH SEMI
+          		            &hl SYM TAB &hm LSHIFT ENTER 	    &kp BSPC   &hl SYS SPACE 
 		>;
 		};
 
        	sym1 {
 		bindings = <
-		&kp EXCL    &kp AT    &kp HASH  &kp HOME  &kp PERCENT	    &kp CARET  &kp END   &kp STAR  &kp TILDE   &kp EQUAL 
-		&kp DOLLAR  &kp PLUS  &kp LPAR  &kp RPAR  &kp AT 	        &kp PIPE   &kp MINUS &kp EQUAL &kp UNDER   &kp STAR 
-		&kp EXCL    &kp HASH  &kp LBRC  &kp RBRC  &kp GRAVE     	&kp AMPS   &kp LBKT  &kp RBKT  &kp PERCENT &kp CARET 
-			                                 &trans &trans 	        &trans &trans 
+		&kp N1      &kp N2    &kp N3    &kp N4    &kp N5      &kp N6     &kp N7    &kp N8    &kp N9      &kp N0 
+		&kp DOLLAR  &kp PLUS  &kp LPAR  &kp RPAR  &kp AT      &kp PIPE   &kp MINUS &kp EQUAL &kp UNDER   &kp STAR 
+		&kp EXCL    &kp HASH  &kp LBRC  &kp RBRC  &kp GRAVE   &kp AMPS   &kp LBKT  &kp RBKT  &kp PERCENT &kp CARET
+			                                 &trans &trans 	    &kp DEL &trans 
 		>;
 		};
 		
@@ -109,9 +109,9 @@
 
         sys {
         bindings = <
-		&kp LG(NUM_1)     &kp LG(NUM_2) &kp LG(NUM_3)    &kp LG(NUM_4) &kp LG(NUM_5)    &none     &hm LC(V) LC(C)  &none        &kp Q      &trans
-		&kp LG(LS(Q))     &kp LG(D)     &hm LG(E) LG(W)  &kp LG(F)     &kp LGUI   	    &kp LEFT  &kp DOWN         &kp UP       &kp RIGHT  &none
-		&kp LG(LS(MINUS)) &kp HOME      &kp END          &kp LG(MINUS) &kp LG(ENTER)	&kp DEL   &kp PG_UP        &kp PG_DN    &none      &trans
+		&kp LG(NUM_1)     &kp LG(NUM_2) &kp LG(NUM_3)    &kp LG(NUM_4) &kp LG(NUM_5)    &kp PG_UP &kp LC(V) &kp LC(C)  &kp LC(X)  &kp Q      &trans
+		&kp LG(LS(Q))     &kp LG(D)     &hm LG(E) LG(W)  &kp LG(F)     &kp LGUI   	    &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &none
+		&kp LG(LS(MINUS)) &kp HOME      &kp END          &kp LG(MINUS) &kp LG(ENTER)	&kp PG_DN &kp HOME  &kp END    &kp INS    &trans
 					                                  &trans        &trans   	        &trans    &trans 
         >;
         };
